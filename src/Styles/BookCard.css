@@ -1,0 +1,18 @@
+.mobileView {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 400px;
+	margin: auto;
+}
+
+@media (max-width: 991px) {
+	.bigScreen {
+		display: none;
+	}
+}
+@media (min-width: 992px) {
+	.mobileView {
+		display: none;
+	}
+}
